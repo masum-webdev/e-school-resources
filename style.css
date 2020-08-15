@@ -7,7 +7,7 @@
 .nav-item{
   margin: 10px 10px;
 }
-.sign-in{
+.green-btn{
   width: 150px;
   background-color: #21B573;
   border-radius: 50px;
@@ -15,7 +15,50 @@
   text-decoration: none;
   text-align: center;
 }
-.sign-in:hover{
+.green-btn:hover{
   background-color: #2ea44f;
   border: 1px solid green;
 }
+.text-red{
+  color: #FD511A;
+}
+.text-green{
+  color: #21b573;
+}
+.text-gray{
+  color: #6C6B6B;
+}
+/* .col-banner-left{
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+#hyper-link{
+  text-orientation: none;
+
+}
+.btn-success{
+  border-radius: 50px;
+  padding: 10px 20px;
+  
+}
+a:link{
+  color: white;
+}
+a:visited {
+  color: white;
+}
+.col-md-6 h1{
+  font-weight: bold;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: darkgray;
+}
+/* .carousel-control-prev{
+  height: 26%;
+  top: 33%;
+  width: 86px;
+  
+} */
