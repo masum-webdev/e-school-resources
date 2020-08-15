@@ -1,5 +1,9 @@
 .container{
   padding-top: 40px;
+  
+}
+.box-direction{
+  -webkit-box-orient: horizontal;
 }
 .banner-part{
   background-color: #F0FFF0;
@@ -32,10 +36,7 @@
   padding-left: 10%;
   padding-right: 10%;
 } */
-#hyper-link{
-  text-orientation: none;
 
-}
 .btn-success{
   border-radius: 50px;
   padding: 10px 20px;
@@ -54,11 +55,21 @@ a:visited {
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: darkgray;
+  background-color: gray;
 }
-/* .carousel-control-prev{
-  height: 26%;
-  top: 33%;
-  width: 86px;
-  
-} */
+
+.box-item{
+  margin-top: 20%;
+  background-color: #f8fffb;
+  border-radius: 10px;
+}
+.box-item-inner{
+  margin-top: 10%;
+}
+.box-item img{
+  width: 30%;  
+}
+.box-item:hover{
+  background-color: white;
+  box-shadow: 5px 5px 40px gray;
+}
