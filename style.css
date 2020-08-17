@@ -123,7 +123,20 @@ a:visited {
 }
 .bottom-part-background{
   background-color: #282531;
+  color: white;
+ 
 }
-.one{
-  border: 1px solid red;
+.bottom-part-background p{
+  margin:0px;
 }
+.bottom-part-background a{
+  text-decoration: none;
+}
+.bottom-part-inner{
+  /* padding-left:50%; */
+  place-self: center;
+}
+footer{
+  margin-top: 50px;
+}
+
