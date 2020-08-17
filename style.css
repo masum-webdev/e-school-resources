@@ -88,16 +88,17 @@ a:visited {
 
 .box-item:hover{
   background-color: white;
-  box-shadow: 5px 5px 40px gray;
+  box-shadow: 5px 5px 40px lightgray;
 }
 .card{
   border-radius: 15px;
+  box-shadow: 5px 5px 60px lightgray;
 }
 .card img{
   padding: 20px 20px;
 }
 .card:hover{
-  box-shadow: 5px 5px 40px lightgray;
+  box-shadow: 5px 5px 40px gray;
 }
 .card-footer img{
   width: 25px;
